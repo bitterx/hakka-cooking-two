@@ -1,0 +1,419 @@
+.links{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+  text-emphasis: center;
+  color: black;
+}
+
+.intro-links{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+  text-emphasis: center;
+  color: black;
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: 1fr;
+ 
+}
+
+.title{
+  text-align: center;
+  padding-bottom: 80 px;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.chineseHomepage{
+  
+  top: 50%;
+  text-align: center;
+ 
+  margin-bottom: 2em;
+}
+
+
+
+.quote{
+height: 50%;
+  background-color: #ff7878;
+  padding: 2em;
+ text-align: center;
+
+ 
+} 
+
+
+
+.intro{
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 32px;
+ padding-top:10%;
+ padding-bottom:30%;
+} 
+
+.quote-two{
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 32px;
+  background-color: #FFBE16;
+  padding: 1em;
+ 
+}
+
+.tofuIngredientTitle{
+  font-size: 32px;
+  font-family: 'Lemon', cursive;
+  color:#ff7878;
+  }
+
+.chineseIngredientTitle{
+letter-spacing: 4px;
+font-size: 32px;
+font-family: 'Gloock', serif;
+color:#ff7878;
+}
+
+.indianIngredientTitle{
+  letter-spacing: 4px;
+  font-size: 32px;
+  font-family: 'lemon';
+  color:#FFBE16;
+  }
+
+.indianMethodTitle{
+  letter-spacing: 4px;
+  font-size: 32px;
+  margin-top:3em;
+  font-family: 'lemon';
+  color:#FFBE16;
+  }
+
+  .chineseMethodTitle-two{
+
+    font-size: 32px;
+    margin-top:3em;
+    font-family: 'lemon';
+    color:#ff7878;
+    }
+
+.ingredients-one{
+  margin-top: 2em;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height:29px;
+}
+
+.ingredients-two{
+  margin-top: 2em;
+  font-family: 'lemon';
+  font-size: 24px;
+  line-height:29px;
+  
+}
+
+.methods-one{
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height:29px;
+}
+
+.sub-heading{
+  letter-spacing: 2px;
+  text-align: left;
+  margin-top:2em ;
+  margin-left: 37%;
+
+  font-family: 'Gloock', serif;
+  font-size: 27px;
+  color:#ff7878
+}
+
+.sub-heading-two{
+  text-align: left;
+  margin-top:2em ;
+  margin-left: 37%;
+
+  font-family: 'lemon';
+  font-size: 24px;
+  color:#FFBE16;
+}
+
+.food-link{
+
+font-size: 24px;
+text-decoration: none;
+font-family: 'Lemon', cursive;
+color:#ff7878
+}
+
+
+.pronounce{
+  font-size: 32px;
+  font-family: 'Ubuntu Mono', monospace;
+ font-weight: 700;
+}
+
+li{
+  font-size: 24px;
+  margin:1em; 
+}
+
+ul{
+  display:inline-block;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin:1em;
+  margin-left: 37%;
+  margin-right: 30%;
+}
+
+ol{
+  display:inline-block;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  margin:15px;
+  margin-left: 37%;
+  margin-right: 30%;
+}
+
+h1{
+ 
+  font-family: 'Lemon', cursive;
+  text-align: center;
+  font-size: 64px;
+  color:#FFBE16;
+
+}
+
+h2{
+  font-family: 'Gloock', serif;
+ 
+  text-align: center;
+  font-size: 64px;
+  color:#ff7878
+}
+
+
+.tofu{
+  font-family: 'Lemon', cursive;
+}
+
+p{
+  font-family: 'Ubuntu Mono', monospace;
+
+  font-style: normal;
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.column {
+  
+    float: left;
+  
+    width: 50%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+   margin-top:40%;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .head{
+    position: relative;
+    width:100%;
+    font-size: 37px;
+    text-align: center;
+    top:50%;
+    
+    transform:translate(-50%,-50%) ;
+    
+
+  }
+
+  .chinese{
+    font-family: 'Gloock', serif;
+    color:bisque;
+    height:50%;
+  }
+
+  .indian{
+    font-family: 'Lemon', cursive;
+    color:bisque;
+  }
+
+  .chineseRecipes{
+    font-family: 'Gloock', serif;
+    color: red;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  body {
+margin: 0;
+}
+
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 100vh; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 50%;
+   
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .about{
+    font-family: 'gloock', serif;
+    font-size: 48px;
+    margin-top:15%;
+    text-align: left;
+margin-left:12%;
+letter-spacing: 2px;
+
+  }
+
+  .about-para{
+    /* margin-top:15%; */
+    text-align: left;
+margin-left:12%;
+  }
+
+  .biege{
+    width:100%;
+    height:100%;
+    background-color: rgb(240, 227, 84);
+  }
+
+
+
+/* 
+slide show CSS */
+
+
+  * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  margin-top: 4em;
+  max-width: 11.5in;
+max-width: 5in;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:  rgb(223, 172, 124);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ff7878;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
