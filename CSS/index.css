@@ -151,9 +151,17 @@ color:#ff7878;
   color:#FFBE16;
 }
 
-.tofuColour{
+.sub-heading-three{
+  text-align: left;
+  margin-top:2em ;
+  margin-left: 37%;
+
+  font-family: 'lemon';
+  font-size: 24px;
   color:#ff7878
 }
+
+
 
 .food-link{
 
